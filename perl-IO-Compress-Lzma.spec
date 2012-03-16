@@ -10,6 +10,7 @@ Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}/
 Source0:	http://www.cpan.org/authors/id/P/PM/PMQS/%{module}-%{version}.tar.gz
 BuildArch:	noarch
+BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
 BuildRequires:	perl(Compress::Raw::Lzma) >= %{version}
 BuildRequires:	perl(IO::Compress::Base) >= %{version}
