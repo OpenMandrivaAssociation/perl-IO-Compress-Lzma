@@ -45,3 +45,14 @@ make test %{with long_tests:COMPRESS_ZLIB_RUN_ALL=1}
 %{_mandir}/man3/IO::Uncompress::UnLzma.3pm*
 %{_mandir}/man3/IO::Uncompress::UnXz.3pm*
 
+
+
+%changelog
+* Fri Mar 16 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 2.049-1
++ Revision: 785230
+- add perl-devel to buildrequires
+- imported package perl-IO-Compress-Lzma
+
+
+* Mon Mar 13 2012 Per Øyvind Karlsen <pkarlsen@mandriva.com> 2.049-1
+- initial release
