@@ -2,13 +2,13 @@
 %bcond_with	long_tests
 
 Name:		perl-%{module}
-Version:	2.049
+Version:	%perl_convert_version 2.061
 Release:	1
 Summary:	Read and write lzma compressed data
 License:	GPL+ or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}/
-Source0:	http://www.cpan.org/authors/id/P/PM/PMQS/%{module}-%{version}.tar.gz
+Source0:	http://www.cpan.org/authors/id/P/PM/PMQS/IO-Compress-Lzma-2.061.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -56,3 +56,4 @@ make test %{with long_tests:COMPRESS_ZLIB_RUN_ALL=1}
 
 * Mon Mar 13 2012 Per Øyvind Karlsen <pkarlsen@mandriva.com> 2.049-1
 - initial release
+

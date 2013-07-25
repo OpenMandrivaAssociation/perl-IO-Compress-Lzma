@@ -1,2 +1,4 @@
+removed_sources:
+  IO-Compress-Lzma-2.049.tar.gz: 8375e159f6e06c1ff5628fad77b904ba3a495284
 sources:
-  "IO-Compress-Lzma-2.049.tar.gz": 8375e159f6e06c1ff5628fad77b904ba3a495284
+  IO-Compress-Lzma-2.061.tar.gz: f532e0aa9a2995efd4cbbb774a30ec49419457d9
