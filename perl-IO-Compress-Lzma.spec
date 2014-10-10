@@ -3,7 +3,7 @@
 
 Name:		perl-%{module}
 Version:	2.049
-Release:	1
+Release:	2
 Summary:	Read and write lzma compressed data
 License:	GPL+ or Artistic
 Group:		Development/Perl
