@@ -7,7 +7,7 @@ Release:	3
 Summary:	Read and write lzma compressed data
 License:	GPL+ or Artistic
 Group:		Development/Perl
-URL:		http://search.cpan.org/dist/%{module}/
+URL:		https://search.cpan.org/dist/%{module}/
 Source0:	http://www.cpan.org/authors/id/P/PM/PMQS/%{module}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
